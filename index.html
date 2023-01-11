@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <meta charset="UTF-8">
+        <meta author="Oana Pop">
+        <meta keywords="start.IT, firme IT, firme IT Cluj, software, website, website custom">
+        <meta description="start.IT este firma IT la care apelează totți cei care își doresc un website, un software sau orice altceva în domeniul virtual.">
+        
+        <title>
+            start.IT - Your online presence developed
+        </title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <style>
+            body {
+                background-color: #fefefe;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .coloana-text-dreapta h2 {
+                text-align: left;
+                padding-top: 0px;
+            }
+
+            .coloana-text-dreapta p {
+                padding-left: 0%;
+            }
+            
+            .coloana-text-stanga h2 {
+                text-align: right;
+                padding-top: 0px;
+            }
+
+            .coloana-text-stanga p {
+                padding-right: 0%;
+                text-align: right;
+            }
+            
+            p {
+                padding-left: 15%;
+                padding-right: 15%;
+            }
+
+            h2 {
+                text-align: center;
+                padding-top: 15px;
+            }
+
+            .culoare-brand {
+                color: #fe5512;
+                font-weight: bold;
+            }
+
+            .rand {
+                display: flex;
+                margin-bottom: 25px;
+            }
+
+            .coloana-poza-stanga {
+                margin-left: 15%;
+                width: 50%;
+                background-color: #f4efe9;
+            }
+
+            .coloana-text-dreapta {
+                margin-right: 15%;
+                width: 50%;
+                background-color:#f4efe9;
+            }
+
+            .coloana-poza-dreapta {
+                margin-right: 15%;
+                width: 50%;
+                background-color: #f4efe9;
+                
+            }
+
+            .coloana-text-stanga {
+                margin-left: 15%;
+                width: 50%;
+                background-color:#f4efe9;
+                text-align: right;
+            }
+
+            .caracteristici-rand-stanga {
+                padding: 10px;
+            }
+
+            .caracteristici-rand-stanga img {
+                width: 50%;
+                padding-left: 40%;
+                padding-top: 5%;
+            }
+
+            .caracteristici-rand-dreapta {
+                padding: 10px;
+            }
+
+            .caracteristici-rand-dreapta img {
+                width: 50%;
+                padding-right: 20%;
+                padding-top: 5%;
+            }
+
+            .coloana-beneficii-stanga {
+                width: 35%;
+                margin: 10px;
+                background-color: #087E8B;
+                margin-left: 15%;
+                color: #ffffff;
+                padding-bottom: 30px;
+            }
+
+            .coloana-beneficii-dreapta {
+                width: 35%;
+                margin: 10px;
+                background-color: #fe5512;
+                margin-right: 15%;
+                color: #ffffff;
+                padding-bottom: 30px;
+            }
+
+            .coloana-beneficii-stanga h3 {
+                text-align: center;
+            }
+
+            .coloana-beneficii-dreapta h3 {
+                text-align: center;
+            }
+
+            .coloana-beneficii-stanga img {
+                width: 90%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 5%;
+            }
+
+            .coloana-beneficii-dreapta img {
+                width: 90%;
+                padding-left: 5%;
+                padding-right: 5%;
+                padding-top: 5%;
+            }
+
+            ul {
+                list-style-type: square;
+                margin-left: 20%;
+            }
+
+            .rand-3coloane {
+                display: flex;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+
+            .coloana-portofoliu {
+                width: 33.33%;
+            }
+
+            .coloana-portofoliu img {
+                width: 90%;
+                padding-left: 5%;
+                padding-right: 5%;
+            }
+
+            .coloana-testimoniale {
+                width: 33.33%;
+                margin: 16px;
+                background-color: #087E8B;
+            }
+            
+            .caracteristici-testimoniale {
+                color: #ffffff;
+            }
+
+            .caracteristici-testimoniale h4 {
+                text-align: center;
+            }
+
+            .coloana-beneficii-dreapta {
+                width: 35%;
+                margin: 10px;
+                background-color: #fe5512;
+                margin-right: 15%;
+                color: #ffffff;
+                padding-bottom: 30px;
+            }
+
+            .coloana-testimoniale img {
+                width: 50%;
+                border-radius: 50%;
+                padding-left: 25%;
+                padding-right: 25%;
+                padding-top: 5%;
+            }
+
+            .fundal-footer {
+                background-color: #37393A;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                color: #ffffff;
+            }
+
+            .footer-2coloane {
+                display: flex;
+            }
+
+            .coloana-footer {
+                width: 50%;
+                margin-left: 15%;
+                margin-right: 15%;
+            }
+
+            .caracteristici-footer-contact h4 {
+                margin-left: 15%;
+            }
+
+            .caracteristici-footer-social-media h4 {
+                margin-left: 15%;
+            }
+
+            .fundal-footer img {
+                width: 15%;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+            
+            .caracteristici-footer-contact a {
+                color: #ffffff;
+                text-decoration: none;
+                border: 2px #fe5512;
+                padding: 3px 7px;
+                border-style: inset;
+            }
+
+            .caracteristici-footer-contact a:hover {
+                color: #fe5512;
+                border-style: outset;
+            }
+
+            .caracteristici-footer-social-media a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            .caracteristici-footer-social-media a:hover {
+                color: #fe5512;
+                border: 2px #fe5512;
+                padding: 3px 7px;
+                border-style: groove;
+            }
+
+            .caracteristici-footer-social-media img {
+                display: inline;
+                margin-top: 0;
+            }
+
+            .copyrights {
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <img src="assets/pexels-photo-205316-brand.jpg" alt="Un birou alb cu un calculator Apple care afișează logo-ul start.IT" width="100%">
+        <h2>
+                SERVICII COMPLETE DE DEZVOLTARE WEB
+        </h2>
+        <p>
+            Înființată în anul 2022, <span class="culoare-brand">start.IT</span> propune o nouă interpretare pentru fiecare brand care își dorește o prezență online. Fie că este vorba despre un website de prezentare, un magazin online sau un website creat și codat special pentru afacerea ta, <span class="culoare-brand">start.IT</span> are soluția perfectă. Cu un design web aparte și o funcționalitate aparte, website-ul tău poate să iasă în evidență împotriva concurenței tale.
+        </p>
+
+        <h2>
+            SERVICIILE NOASTRE
+        </h2>
+
+        <div class="rand">
+            <div class="coloana-poza-stanga">
+                <div class="caracteristici-rand-stanga">
+                    <img src="Assets/home-2-1.png" alt="Un website cu imagini afișat pe o tabletă">
+                </div>
+            </div>
+    
+            <div class="coloana-text-dreapta">
+                <div class="caracteristici-rand-stanga">
+                    <h3>WEBSITE DE PREZENTARE</h3>
+                    <p>
+                        Primele impresii joacă un rol esențial pentru a crea o relație între brandul tău și potențialii tăi clienți. Prin crearea designurilor profesionale și memorabile atragem atenția și asigurăm o primă impresie puternică. Astfel, creștem loialitatea față de brand și dorința de cumpărare.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="rand">
+            <div class="coloana-text-stanga">
+                <div class="caracteristici-rand-dreapta" alt="O serie de oameni la o masă, în timp ce o persoană trimite niște email-uri">
+                    <h3>MAGAZIN ONLINE</h3>
+                    <p>
+                        Acum este cel mai bun moment să-ți deschizi un magazin online! Prin dezvoltarea magazinului online creștem reputația brandului, îl promovăm la nivel național și creăm o conexiune mai bună între clienți și brand.
+                    </p>
+                </div>
+            </div>
+
+            <div class="coloana-poza-dreapta">
+                <div class="caracteristici-rand-dreapta">
+                    <img src="Assets/adult-business-businessman.jpg">
+                </div>
+            </div>
+        </div>
+
+        <div class="rand">
+            <div class="coloana-poza-stanga">
+                <div class="caracteristici-rand-stanga">
+                    <img src="Assets/code3.jpg" alt="O persoană care scrie cod pe un laptop">
+                </div>
+            </div>
+    
+            <div class="coloana-text-dreapta">
+                <div class="caracteristici-rand-stanga">
+                    <h3>SOLUȚIE CUSTOM</h3>
+                    <p>
+                        Pentru a crea o cât mai bună primă impresie între brandul tău și potențialii clienți, este necesar ca website-ul tău să fie unic. Astfel, îți propunem o variantă personalizată, creată exact așa cum îți dorești.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            BENEFICIILE PE CARE LE OFERIM
+        </h2>
+
+        <div class="rand">
+            <div class="coloana-beneficii-stanga">
+                <div class="caracteristici-beneficii">
+                    <img src="Assets/mockup-654585_1280.jpg" alt="O tabletă și un telefon care afișează un website">
+                    <h3>100% RESPONSIVE</h3>
+                    <p>
+                        Într-o lume în care marea majoritate folosim telefoanele pentru a vizita diverse website-uri, este poate cel mai important ca website-ul tău să fie la fel de special și pe mobil, cum este și pe un monitor.
+                    </p>
+                </div>
+            </div>
+
+            <div class="coloana-beneficii-dreapta">
+                <div class="caracteristici-beneficii">
+                    <img src="Assets/project-case-study-1.jpg" alt="Un monitor care afișează un website">
+                    <h3>DESIGN WEB</h3>
+                    <p>
+                        Prima interacțiune a clienților cu brandul tău este cea mai importantă, așa că promitem o interfață unică, care cu siguranță îți va crea o imagine aparte în domeniul în care activezi.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            AU ÎNCREDERE ÎN NOI
+        </h2>
+
+        <p>
+            Fiind într-o continuă creștere, portofoliul nostru de clienți se mărește constant. În acest moment, suntem mândri că am acumulat <span class="culoare-brand">14 clienți</span> cu care colaborăm constant și care sunt mulțumiți de serviciile noastre.
+        </p>
+       
+        <ul>
+            <li>McMap SRL</li>
+            <li>Sailing Cats SRL</li>
+            <li>Fairyback SRL</li>
+            <li>Fivedust SRL</li>
+        </ul>
+
+        <div class="rand-3coloane">
+            <div class="coloana-portofoliu">
+                <div class="caracteristici-portofoliu">
+                    <img src="Assets/work.jpg" alt="Un birou umplut cu un laptop, un calculator de birou, diverse hârtii și mâinile unei persoane pe telefon">
+                </div>
+            </div>
+
+            <div class="coloana-portofoliu">
+                <div class="caracteristici-portofoliu">
+                    <img src="Assets/team-work.jpg" alt="Un grup de oameni care se uită la un monitor, discutând">
+                </div>
+            </div>
+
+            <div class="coloana-portofoliu">
+                <div class="caracteristici-portofoliu">
+                    <img src="Assets/we-learn-code.jpg" alt="O serie de cărți despre codare și o persoană pe canapea, cu mâinile pe tastele unui laptop">
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            CE SPUN CLIENȚII NOȘTRI
+        </h2>
+
+        <div class="rand-3coloane">
+            <div class="coloana-testimoniale">
+                <div class="caracteristici-testimoniale">
+                    <img src="Assets/m (18).jpg" alt="Un bărbat brunet zâmbind">
+                    <H4>
+                        MARIUS OLARU
+                    </H4>
+                    <p>
+                        Nu îmi puteam imagina că website-ul meu poate avea un impact atât de mare în rândul clienților. Echipa start.IT a înțeles perfect cerințele mele și le-au pus în practică într-un mod pe care nici nu mi l-aș fi putut imagina. Absolut superb! Recomand cu căldură!
+                    </p>
+                </div>
+            </div>
+
+            <div class="coloana-testimoniale">
+                <div class="caracteristici-testimoniale">
+                    <img src="Assets/w (10).jpg" alt="O femeie cu dread-uri râzând">
+                    <H4>
+                        ALIYAH WILLIAMS
+                    </H4>
+                    <p>
+                        Their service was absolutely incredible! My online store is beautiful, perfectly functional and a lot of my clients tell me how easy it was for them to place their order and to find the perfect products. Perfect collaboration!
+                    </p>
+                </div>
+            </div>
+
+            <div class="coloana-testimoniale">
+                <div class="caracteristici-testimoniale">
+                    <img src="Assets/m (25).jpg" alt="Un bărbat brunet la costum zâmbind">
+                    <H4>
+                        BOGDAN CHERECHEȘ
+                    </H4>
+                    <p>
+                        Platforma pe care mi-au creat-o cei de la start.IT este cu siguranță peste așteptările mele. Funcționalitate, design, responsiveness - s-au gândit la toate! Mulțumesc start.IT, cu siguranță voi mai apela la voi!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="fundal-footer">
+            <img src="Brand/logo-no-background.png" alt="Logo-ul firmei start.IT">
+            <div class="footer-2coloane">
+                <div class="coloana-footer">
+                    <div class="caracteristici-footer-contact">
+                        <h4>
+                            GET IN TOUCH
+                        </h4>
+                            <p>
+                                <a href="tel:0749021665">T: 0749 021 665</a>
+                            </p>
+                            <p>
+                                <a href="mailto:contact@startit.ro">M: contact@startit.ro</a>
+                            </p>
+                    </div>
+                </div>
+
+                <div class="coloana-footer">
+                    <div class="caracteristici-footer-social-media">
+                        <h4>
+                            FOLLOW US ON SOCIAL MEDIA
+                        </h4>
+                        <p>
+                            <img src="Assets/facebook-icon.png" alt="Iconița Facebook">
+                            <a href="https://www.facebook.com/oanalexandra18/">Facebook start.IT</a>
+                        </p>
+                        <p>
+                            <img src="Assets/instagram-icon.png" alt="Iconița Instagram">
+                            <a href="https://www.instagram.com/_oanalexandra/?hl=en"> Instagram start.IT</a>
+                        </p>
+                        <p>
+                            <img src="Assets/twitter-icon.png" alt="Iconița Twitter">
+                            <a href="https://twitter.com/oanalexandra18/">Twitter start.IT</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <span class="copyrights">
+                <p>
+                    &#169; 2022 START IT SRL. Toate drepturile rezervate.
+                </p>
+            </span>
+        </div>
+    </body>
+
+
+</html>
